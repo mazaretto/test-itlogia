@@ -1,0 +1,44 @@
+@media screen and (max-width: 968px) {
+	h1 {
+		font-size: 30px!important;
+	}
+
+	h1 br, h2 br {
+		display: none;
+	}
+
+	.footer, header {
+		text-align: center;
+		padding: 10px 0px!important;
+	}
+
+	header a:not(.not-flex) {
+		margin: 0 auto;
+		font-size: 13px;
+		padding: 5px!important;
+	}
+
+	.cart img {
+		max-width: 25px;
+	}
+
+	.section-first {
+		padding-top: 160px!important;
+	}
+
+	.section-footer {
+		padding-top: 70px!important;
+	}
+
+	.logo {
+		max-width: 100px;
+	}
+
+	header .row, footer .row {
+		height: auto!important;
+	}
+
+	.m-hide {
+		display: none!important
+	}
+}
