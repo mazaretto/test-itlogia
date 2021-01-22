@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 			let data = $(this).serialize()
 
-			$.get('http://instagram.com/andrew.digital.pro?__a=1').done(function (data) {
+			$.get('').done(function (data) {
 				$.fancybox.open('<div class="message"><h2 class="text-center">Спасибо!</h2><p>Мы свяжемся с вами в ближайшее время!</p></div>');
 			})
 		})
